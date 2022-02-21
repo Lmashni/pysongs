@@ -78,7 +78,7 @@ def numpy_to_voices(sc,file,wr_wav = False,tet = 7):
         write(file,40000,data=yf)
         
     return y 
-
+#######
 if __name__ == '__main__':
     
     file = './sounds/go.way'
